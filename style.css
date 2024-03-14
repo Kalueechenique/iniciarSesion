@@ -147,6 +147,11 @@ body{
     color: #FCE9F1;
 }
 
+.hide{
+    position: absolute;
+    transform: translateY(-150%);
+}
+
 /* RESPOSIVE */
 
 @media only screen and (max-width: 750px) {
