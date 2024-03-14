@@ -146,3 +146,36 @@ body{
     background-color: black;
     color: #FCE9F1;
 }
+
+/* RESPOSIVE */
+
+@media only screen and (max-width: 750px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    html{
+        font-size: 10px;
+    }
+    .container-form{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .informacion{
+        width: 100%;
+        padding: 20px;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        border-bottom-left-radius:0px ;
+    }
+
+    .form-information{
+        width: 100%;
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius:0px ;
+    }
+}
